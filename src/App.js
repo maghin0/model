@@ -11,11 +11,11 @@ constructor() {
   }
 }
 
-componentDidMount(){
-  fetch(https://api.instagram.com/v1/self/media/recent?access_token=)
-  .then(response => response.json())
-  .then(users => this.setState({ model: users }))
-}
+// componentDidMount(){
+//   fetch(https://api.instagram.com/v1/self/media/recent?access_token=)
+//   .then(response => response.json())
+//   .then(users => this.setState({ model: users }))
+// }
 
  render() {
   return (
